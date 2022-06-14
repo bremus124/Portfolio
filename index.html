@@ -1,0 +1,212 @@
+<!-- ## User Story
+
+```
+AS AN employer
+I WANT to view a potential employee's deployed portfolio of work samples
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+```
+
+
+## Acceptance Criteria
+
+Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+
+```
+GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brittany's Portfolio</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <h1>Brittany Remus's Web Develper Portfolio </h1>
+            <nav>
+                <ul class="nav-links">
+                    <li>
+                        <a href="#About-Me">About Me </a>
+                    </li>
+                    <li>
+                        <a href="#Recent-Work">Recent Work</a>
+                    </li>
+                    <li>
+                        <a href="#Contact-Me">Contact Me</a>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="content">
+            <section id="About-Me" class="About-Me">
+                <h2>About Brittany</h2>
+                <div id="me" class="me">
+                    <div class="selfie" id="selfie">
+                        <div class="self-image">
+                    <img src="./assets/images/selfie.JPG" alt="Selfie" width="200" height="300"/>
+                    </div>  
+                        
+                    <div class="auto"> 
+                        <p>
+                         My name is Brittany Remus and I currently work as a Physical Therapist in Philadelphia for 9 years. This year I got hurt on the job and realized my current career may not have the longevity I had hoped for. That is how I found myself interested in web devlopment. I am currently 2 weeks into
+                        a coding bootcamp. I hope that when I finish I will have the skills I nee to become a full stack web developer.
+                        </p>
+                     </div>
+                </div>
+                
+                
+            </section>
+
+            <section id="Recent-Work" class="Recent-Work">
+                <h2> Recent Work Examples </h2>
+                <div id="projects" class="projects">
+                    <div class="project-1" id="feature-project">
+                        <div class="p1-image">
+                        <a href="https://bremus124.github.io/Challenge1/"> 
+                            <img class="feature-image"src="./assets/images/screenshothorisean.png" width="400px" height="500px;" alt="Horsean Project" class="center"> </a>
+                        </div>
+                        <div class = "p1-text">
+                            <h3>
+                            Project-1 Horsean Project
+                        </h3>
+                        <p>
+                            Revisision of codebase that follows accessibility standards so that the website is optimized for search engines for a marketing agency.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img class="card-image" src="./assets/images/imageplaceholder.png" alt="descriptor">
+                    <div class = "descriptor"
+                        <h4>
+                            Project-2
+                        </h4>
+                        <p>
+                            Describe Project-TBD
+                        </p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img class="card-image" src="./assets/images/imageplaceholder.png" alt="descriptor">
+                    <div class = "descriptor"
+                        <h4>
+                            Project-3
+                        </h4>
+                        <p>
+                            Describe Project-TBD
+                        </p>
+                    </div>
+
+                    </div>
+                    
+
+                    <div class="project-card">
+                        <img class="card-image" src="./assets/images/imageplaceholder.png" alt="descriptor">
+                    <div class = "descriptor"
+                        <h4>
+                            Project-4
+                        </h4>
+                        <p>
+                            Describe Project-TBD
+                        </p>
+                    </div>
+
+                    </div>
+
+                    <div class="project-card">
+                        <img class="card-image" src="./assets/images/imageplaceholder.png" alt="descriptor">
+                    <div class = "descriptor"
+                        <h4>
+                            Project-5
+                        </h4>
+                        <p>
+                            Describe Project-TBD
+                        </p>
+                    </div>
+
+                    </div>
+
+                    <div class="project-card">
+                        <img class="card-image" src="./assets/images/imageplaceholder.png" alt="descriptor">
+                    <div class = "descriptor"
+                        <h4>
+                            Project-6
+                        </h4>
+                        <p>
+                            Describe Project-TBD
+                        </p>
+                     </div>
+
+
+                    </div>
+
+                    <div class="project-card">
+                        <img class="card-image" src="./assets/images/imageplaceholder.png" alt="descriptor">
+                    <div class = "descriptor"
+                        <h4>
+                            Project-7
+                        </h4>
+                        <p>
+                            Describe Project-TBD
+                        </p>
+                     </div>
+
+
+                </div>
+
+            </section>
+
+            
+            <section id="Contact-Me" class="Contact-Me">
+                <h2>Contact Me</h2>
+                <div id="contacts" class="contacts">
+
+                    <p> 
+                     <ul>
+                        <li>
+                            <a href = "mailto:bremus124@gmail.com">Send Email</a>
+                        </li>
+                        <li>
+                            <a href = "https://github.com/bremus124">GitHub</a>
+                        </li>
+                       
+                    </ul>
+                
+                    </p>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="Copyright">
+                <p>
+                    Copyright © 2022
+                </p>
+              </div>
+        </footer>
+
+
+
+    </body>
