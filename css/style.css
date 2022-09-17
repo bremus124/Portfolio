@@ -116,12 +116,12 @@ h2  {
     justify-content: center;
 }
 
-.project-card {
+/* .project-card {
     display: flex;
     flex-wrap: wrap;
     padding-top: 10%;
     align-items: center;
-}
+} */
 
 #Contact-Me {
     padding-top: 5%;
